@@ -1,0 +1,64 @@
+{
+  "tags": [
+    {
+      "id": 1,
+      "name": "Temperature_1",
+      "value": 35.24,
+      "unit": "°C"
+    },
+    {
+      "id": 2,
+      "name": "Pressure_1",
+      "value": 103.4,
+      "unit": "kPa"
+    },
+    {
+      "id": 3,
+      "name": "Flow_Rate_1",
+      "value": 152.7,
+      "unit": "L/min"
+    },
+    {
+      "id": 4,
+      "name": "Valve_1",
+      "value": 0,
+      "unit": "state"
+    },
+    {
+      "id": 5,
+      "name": "Pump_1",
+      "value": 1,
+      "unit": "state"
+    },
+    {
+      "id": 6,
+      "name": "Temperature_2",
+      "value": 87.2,
+      "unit": "°C"
+    },
+    {
+      "id": 7,
+      "name": "Pressure_2",
+      "value": 312.6,
+      "unit": "kPa"
+    },
+    {
+      "id": 8,
+      "name": "Flow_Rate_2",
+      "value": 76.1,
+      "unit": "L/min"
+    },
+    {
+      "id": 9,
+      "name": "Valve_2",
+      "value": 1,
+      "unit": "state"
+    },
+    {
+      "id": 10,
+      "name": "Pump_2",
+      "value": 0,
+      "unit": "state"
+    }
+  ]
+}
