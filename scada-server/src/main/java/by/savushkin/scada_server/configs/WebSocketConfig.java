@@ -11,16 +11,16 @@ import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry
 @EnableWebSocket
 public class WebSocketConfig implements WebSocketConfigurer {
 
-    private final TagService tagService;
+    private final MyWebSocketHandler myWebSocketHandler;
 
     // Внедрение зависимости через конструктор
-    public WebSocketConfig(TagService tagService) {
-        this.tagService = tagService;
+    public WebSocketConfig(MyWebSocketHandler myWebSocketHandler) {
+        this.myWebSocketHandler = myWebSocketHandler;
     }
 
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-        registry.addHandler(new MyWebSocketHandler(tagService), "")
+        registry.addHandler(myWebSocketHandler, "")
                 .setAllowedOriginPatterns("*"); // Разрешить все источники
     }
 }
